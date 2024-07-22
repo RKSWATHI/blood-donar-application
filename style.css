@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.hero {
+  max-width: 50rem;
+  display: flexbox;
+  margin: 10rem;
+  background-color: rgb(236, 193, 113);
+  display: inline;
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 50vh;
+  margin-bottom: 8%;
+  text-align: center;
+  line-height: 5rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  background: fixed;
+}
+.btn:link,
+.btn:visited {
+  font-size: 36px;
+  padding: 0.2rem 0.2rem;
+  border-radius: 9px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  transition: all 0.3s;
+  height: 5rem;
+}
+.btn--full:link,
+.btn--full:visited {
+  background-color: #d87b29;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+  color: #fff;
+}
+.whole {
+  background-image: url(blood\ 2.jpg);
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+}
+.login-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
